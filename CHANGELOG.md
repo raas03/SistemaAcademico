@@ -6,8 +6,8 @@ Formato basado en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y 
 
 ### Avances y ajustes realizados
 
-1. **Definición de requisitos.** Se identificaron los actores y se documentaron 10 requisitos funcionales y 7 no funcionales, vinculados a los issues del tablero. → [docs/01-requisitos.md](docs/01-requisitos.md)
-2. **Arquitectura inicial definida (#1).** Se propuso una arquitectura por capas con Frontend, Backend/API, lógica de negocio y base de datos.
-3. **Ajuste de la arquitectura (#12).** Se refinó a un modelo **cliente-servidor** con separación Frontend/Backend y se documentaron el principio de separación de responsabilidades y las limitaciones. Se ajustó el flujo para que la **matrícula se genere después de validar la inscripción** y el correo institucional se cree a partir de ella. → [docs/03-arquitectura.md](docs/03-arquitectura.md)
-4. **Modelado UML.** Se elaboraron los diagramas de casos de uso, clases, secuencia y actividad del proceso de inscripción. → [docs/02-modelos-uml.md](docs/02-modelos-uml.md)
-5. **Organización de la gestión del proyecto y versión controlada.** Se creó el tablero en GitHub Projects con 12 issues clasificados por tipo, prioridad y fecha; se seleccionaron 4 issues de seguimiento, se añadió la matriz de riesgos, se actualizó el README y se publicó la versión `v0.1.0`. → [docs/04-gestion-avance.md](docs/04-gestion-avance.md)
+1. **Definición del sistema y sus componentes (Semana 5).** Se describió el sistema, su flujo principal (registro → validación → matrícula → cuenta institucional → acceso) y la tabla de componentes con sus responsabilidades.
+2. **Arquitectura inicial (#1).** Se seleccionó una arquitectura por capas complementada con un modelo cliente-servidor, aplicando el principio de separación de responsabilidades.
+3. **Organización del tablero y riesgos (Semana 6).** Se creó el tablero en GitHub Projects con tareas clasificadas por tipo, prioridad, responsable y fecha, y se elaboró la matriz de riesgos del proyecto. → [docs/04-gestion-avance.md](docs/04-gestion-avance.md)
+4. **Ajuste de la arquitectura (Semana 7, #12).** Se refinó la arquitectura a cliente-servidor con frontend y backend separados, organizando el backend en capas de presentación, negocio y acceso a datos. Se precisó que la matrícula se genera después de validar la inscripción y que el correo institucional se crea a partir de ella. → [docs/03-arquitectura.md](docs/03-arquitectura.md)
+5. **Versión inicial controlada (Semana 8).** Se subieron al repositorio los requisitos, modelos UML, arquitectura y gestión del avance; se actualizó el README.md, se etiquetaron cuatro issues de seguimiento y se publicó la versión v0.1.0.

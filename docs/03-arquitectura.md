@@ -40,7 +40,7 @@ flowchart TB
 | Generación de matrícula | Crear una matrícula única después de validar la inscripción. |
 | Gestión de correo institucional | Solicitar al servicio externo la creación del correo usando la matrícula. |
 | Capa de acceso a datos | Operaciones de lectura/escritura sobre la base de datos. |
-| Base de datos | Persistencia de usuarios, aspirantes, inscripciones, documentos, matrículas y correos. |
+| Base de datos | Almacenar la información de usuarios, estudiantes, asignaturas, inscripciones y matrículas. |
 
 ## Decisiones y justificación
 
